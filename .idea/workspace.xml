@@ -24,6 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
   </component>
   <component name="MavenImportPreferences">
@@ -374,7 +375,7 @@
       <workItem from="1642386115892" duration="593000" />
       <workItem from="1642471237285" duration="1417000" />
       <workItem from="1642576008941" duration="596000" />
-      <workItem from="1642729169962" duration="3212000" />
+      <workItem from="1642729169962" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="身份认证功能第1次提交">
       <created>1561349704707</created>
@@ -619,10 +620,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="426" y="60" width="791" height="595" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1638860810005" />
-    <state x="695" y="141" key="SettingsEditor" timestamp="1642736299198">
+    <state x="695" y="141" key="SettingsEditor" timestamp="1642756865688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="695" y="141" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1642736299198" />
+    <state x="695" y="141" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1642756865688" />
     <state x="401" y="188" key="new project wizard" timestamp="1641802399981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
