@@ -1,0 +1,2 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-12 14:00:22,872 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-12 14:00:23,872 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

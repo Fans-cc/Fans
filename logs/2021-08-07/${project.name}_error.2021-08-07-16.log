@@ -1,0 +1,9 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:24:38,661 ERROR [http-nio-53050-exec-3][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:27:07,627 ERROR [http-nio-53050-exec-2][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:27:33,098 ERROR [http-nio-53050-exec-4][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:27:55,317 ERROR [http-nio-53050-exec-5][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:32:29,364 ERROR [http-nio-53050-exec-7][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:33:26,248 ERROR [http-nio-53050-exec-8][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:33:46,512 ERROR [http-nio-53050-exec-6][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:34:20,318 ERROR [http-nio-53050-exec-10][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null
+[${project.name}][${env:SERVER_PORT}] 2021-08-07 17:36:01,562 ERROR [http-nio-53050-exec-9][GlobalExceptionHandler.java:47] - 【系统异常】Source must not be null

@@ -1,0 +1,20 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:36,762 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:43,046 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:43,226 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:44,702 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:54,071 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:02:54,703 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:02,874 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:04,703 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:14,703 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:24,704 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:31,818 INFO [hmilyTransaction-hmily-transaction-self-recovery-40][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:34,704 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:43,048 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:43,229 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:44,704 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:54,075 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:03:54,704 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:04:02,877 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:04:04,704 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-24 15:04:14,707 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms

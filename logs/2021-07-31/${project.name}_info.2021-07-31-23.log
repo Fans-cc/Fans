@@ -1,0 +1,26 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:02:51,451 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:02:52,485 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:02:53,536 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:02:57,937 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:02:58,988 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:01,194 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 87ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:01,195 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=1, evictionLimit=1)
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:01,195 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for CONSUMER-SERVICE/consumer-service:192.168.1.9:53050
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:01,197 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance CONSUMER-SERVICE/consumer-service:192.168.1.9:53050 (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:02,385 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:06,688 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,586 WARN [http-nio-53000-exec-5][AbstractInstanceRegistry.java:353] - DS: Registry: lease doesn't exist, registering resource: CONSUMER-SERVICE - consumer-service:192.168.1.9:53050
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,592 WARN [http-nio-53000-exec-5][InstanceResource.java:116] - Not Found (Renew): CONSUMER-SERVICE - consumer-service:192.168.1.9:53050
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,594 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:850] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:192.168.1.9:53050 - Re-registering apps/CONSUMER-SERVICE
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,595 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:826] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:192.168.1.9:53050: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,653 INFO [http-nio-53000-exec-2][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:192.168.1.9:53050 with status UP (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:09,655 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:835] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:192.168.1.9:53050 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:10,174 INFO [http-nio-53000-exec-4][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:192.168.1.9:53050 with status UP (replication=true)
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:11,188 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:11,194 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:12,252 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:12,252 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:13,288 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:13,288 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:16,388 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-01 11:03:17,437 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

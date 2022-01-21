@@ -1,0 +1,395 @@
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:30,412 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to consumer-service by app.id property from System Property
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:30,423 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:30,533 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:30,548 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:31,033 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:33,610 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:33,616 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:33,670 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:33,875 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,021 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,314 INFO [main][GenericScope.java:294] - BeanFactory id=ab2dd7a6-c15a-34b0-97cd-c4cd8c0a6e13
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,354 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,435 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'cn.itcast.wanxinp2p.consumer.agent.AccountApiAgent' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,438 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'cn.itcast.wanxinp2p.consumer.agent.DepositoryAgentApiAgent' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,461 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,475 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$e944f4c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,496 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,633 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,638 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$1c426557] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,645 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$ce8f2770] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,647 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$89a60d5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,655 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,659 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,668 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$b071848d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,676 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,678 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$fe4e02e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,751 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,752 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,759 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,763 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:34,800 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,225 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,228 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,338 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0aee5c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,659 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,684 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,686 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'hmilyFeignConfiguration' of type [org.dromara.hmily.springcloud.configuration.HmilyFeignConfiguration$$EnhancerBySpringCGLIB$$eefffe92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:35,717 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dcc8e8c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,360 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53050 (http)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53050"]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,408 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,409 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,423 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,425 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Siemens\Automation\Simatic OAM\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files\Git\cmd;e:\Program Files\MATLAB\R2012a\runtime\win64;e:\Program Files\MATLAB\R2012a\bin;C:\Program Files\nodejs;E:\mysql\mysql-8.0.21-winx64\bin;C:\Ruby26-x64\bin;C:\Users\100774.JANGHOGROUP\AppData\Roaming\npm;E:\Program Files\Microsoft VS Code\bin;.]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,426 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,724 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,724 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 5651 ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,875 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:36,998 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:37,000 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:37,022 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@306cfb8a
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:37,246 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:38,337 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:39,760 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:39,816 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:39,878 INFO [main][HmilyLogo.java:49] - 
+
+
+    __  __          _ __     
+   / / / /___ ___  (_) /_  __
+  / /_/ / __ `__ \/ / / / / /
+ / __  / / / / / / / / /_/ / 
+/_/ /_/_/ /_/ /_/_/_/\__, /  
+                    /____/   
+
+ :: Hmily :: (v2.0.5-RELEASE)
+
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:39,897 INFO [main][AutowiredAnnotationBeanPostProcessor.java:342] - Inconsistent constructor declaration on bean with name 'hmilyTransactionSelfRecoveryScheduled': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled(org.dromara.hmily.common.config.HmilyConfig)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:44,116 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:44,648 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:44,805 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:44,840 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:44,840 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:45,062 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,073 INFO [main][SLF4JLogger.java:71] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,211 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,781 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,850 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,880 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,977 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:46,978 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,144 INFO [cluster-ClusterId{value='61696de611e046365cf6da16', description='null'}-localhost:27017][SLF4JLogger.java:76] - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 more
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,225 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,226 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,740 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,833 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,834 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,834 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,834 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,835 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,836 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:47,836 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,260 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,269 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,276 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,284 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1634299368282 with initial instances count: 1
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,291 INFO [main][EurekaServiceRegistry.java:42] - Registering application CONSUMER-SERVICE with eureka with status UP
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,293 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1634299368293, current=UP, previous=STARTING]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,297 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,299 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:10.1.21.102:53050: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,316 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,376 INFO [http-nio-53000-exec-9][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:10.1.21.102:53050 with status UP (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,378 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:10.1.21.102:53050 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,403 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,732 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53050"]
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,770 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53050 (http) with context path '/consumer'
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,772 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53050
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,778 INFO [main][StartupInfoLogger.java:59] - Started ConsumerService in 20.76 seconds (JVM running for 25.439)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:48,882 INFO [http-nio-53000-exec-5][AbstractInstanceRegistry.java:266] - Registered instance CONSUMER-SERVICE/consumer-service:10.1.21.102:53050 with status UP (replication=true)
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:49,166 INFO [RMI TCP Connection(3)-10.1.21.102][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:49,167 INFO [RMI TCP Connection(3)-10.1.21.102][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:49,192 INFO [RMI TCP Connection(3)-10.1.21.102][FrameworkServlet.java:546] - Completed initialization in 25 ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:02:56,885 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:06,262 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:06,902 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 12ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:08,208 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:09,227 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:10,251 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:16,907 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:26,912 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:32,275 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:32,670 INFO [PollingServerListUpdater-1][ChainedDynamicProperty.java:115] - Flipping property: consumer-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:36,263 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:36,917 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:38,189 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:46,922 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:54,299 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:03:56,927 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:06,197 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:06,289 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:06,932 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:08,218 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:15,312 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:16,328 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:16,936 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:26,938 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:36,285 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:36,940 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:38,214 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:40,228 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:41,651 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:41,927 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:46,942 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:48,775 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:04:56,944 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:01,234 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:02,244 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:06,197 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:06,287 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:06,946 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:08,211 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:16,948 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:23,285 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:24,300 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:26,950 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:36,293 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:36,952 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:38,221 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:41,690 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:41,940 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:46,325 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:46,957 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:48,789 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:05:56,964 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:06,298 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:06,966 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:08,227 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:10,229 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:13,555 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:16,968 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:26,970 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:31,232 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:32,239 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:36,303 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:36,972 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:38,258 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:41,714 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:41,953 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:46,974 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:48,802 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:54,293 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:06:56,978 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:06,311 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:06,980 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:08,279 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:16,311 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:16,982 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:26,984 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:36,314 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:36,986 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:37,237 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:40,267 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:41,728 INFO [hmilyTransaction-hmily-transaction-self-recovery-10][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:41,966 INFO [hmilyTransaction-hmily-transaction-self-recovery-20][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:46,988 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:47,922 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:48,815 INFO [hmilyTransaction-hmily-transaction-self-recovery-30][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:50,224 WARN [http-nio-53010-exec-9][SendErrorFilter.java:81] - Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: account-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 100 more
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:07:56,990 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:08:02,268 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:08:06,222 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:08:06,348 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:08:06,992 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-10-15 20:08:08,331 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
