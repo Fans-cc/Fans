@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf191dfa-47aa-43b4-9766-32b2582fd996" name="Default Changelist" comment="身份认证功能bug修复" />
+    <list default="true" id="cf191dfa-47aa-43b4-9766-32b2582fd996" name="Default Changelist" comment="身份认证功能bug修复">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,6 +64,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowAnt.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -68,7 +81,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26436782" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/wanxinp2p-content-search-service" />
   </component>
   <component name="ReactorSettings">
@@ -375,7 +388,9 @@
       <workItem from="1642386115892" duration="593000" />
       <workItem from="1642471237285" duration="1417000" />
       <workItem from="1642576008941" duration="596000" />
-      <workItem from="1642729169962" duration="4634000" />
+      <workItem from="1642729169962" duration="5421000" />
+      <workItem from="1642822798992" duration="10223000" />
+      <workItem from="1642995801382" duration="8288000" />
     </task>
     <task id="LOCAL-00001" summary="身份认证功能第1次提交">
       <created>1561349704707</created>
@@ -564,10 +579,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="123" y="259" width="618" height="598" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1635673947524" />
-    <state x="625" y="0" key="FileChooserDialogImpl" timestamp="1641802296828">
+    <state x="625" y="0" key="FileChooserDialogImpl" timestamp="1643074553238">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="625" y="0" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1641802296828" />
+    <state x="625" y="0" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1643074553238" />
+    <state x="760" y="421" key="Github.ShareDialog" timestamp="1643074822559">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="760" y="421" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1643074822559" />
     <state width="1876" height="280" key="GridCell.Tab.0.bottom" timestamp="1639969228347">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -620,10 +639,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="426" y="60" width="791" height="595" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1638860810005" />
-    <state x="695" y="141" key="SettingsEditor" timestamp="1642756865688">
+    <state x="702" y="225" key="RollbackChangesDialog" timestamp="1642837459307">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="695" y="141" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1642756865688" />
+    <state x="702" y="225" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1642837459307" />
+    <state x="695" y="141" key="SettingsEditor" timestamp="1643074535280">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="695" y="141" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1643074535280" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1643072382661">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1643072382661" />
+    <state x="758" y="423" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1642837536766">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="758" y="423" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1642837536766" />
     <state x="401" y="188" key="new project wizard" timestamp="1641802399981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
